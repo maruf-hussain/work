@@ -11,7 +11,7 @@ age=20
 #     print("you are adult")
 # else: print("you are chile")
 
-mark=90
+mark=30
 if mark<=100 and mark>=80:
     print("Your Grade A+")
 elif mark<=80 and mark>=70:
@@ -22,5 +22,7 @@ elif mark<=60 and mark>=50:
     print("B")
 elif mark<=50 and mark>=40:
     print("C")
-elif mark<=40:
-    print("Faled")
+elif mark<=40 and mark>=33:
+    print("D")
+else:
+    print("F")
