@@ -1,3 +1,4 @@
+from operator import index
 
 # Pythont genarel math............
 # num1=50
@@ -34,10 +35,35 @@
 # for City in Citis:
 #     print(City)
 #
-#     for item in range(101):
-#         print(item)
+    # for item in range(100):
+    #     print(item)
 
 # dictonary....................................
-examResult = {'bangla': 95, 'math': 85, 'english':75}
-for subject,marks in examResult.items():
-    print(subject,marks)
+# examResult = {'bangla': 95, 'math': 85, 'english':75}
+# for subject,marks in examResult.items():
+#     print(subject,marks)
+
+# while loop..........................................
+# fruits = ['banana','apple', 'orange']
+# index=0
+# while index<len(fruits):
+#     print(fruits[index])
+#     index = index + 1
+#
+# for item in range(100):
+#     if item == 12:
+#         break
+#     print(item)
+
+# for item in range(100):
+#     if item == 10:
+#         continue
+#     print(item)
+
+index=1
+end=12
+while index<end:
+    if index == 5:
+        break
+    print(index)
+    index=index+1
