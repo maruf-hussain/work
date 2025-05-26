@@ -85,8 +85,16 @@ from operator import index
 
 
 # function......................................
-def Addition(a,b):
-    sum = a + b
-    print(sum)
-    
-Addition(50,30)
+# def Addition(a,b):
+#     sum = a + b
+#     print(sum)
+#
+# Addition(50,30)
+
+# List Method........................................
+country = ["Bangladesh", "India", "Pakistan"]
+# country.append("America")
+# country.append("America")
+# country.remove("America")
+country.insert(0,"America")
+print(country)
