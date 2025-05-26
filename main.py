@@ -73,3 +73,20 @@ from operator import index
 #         break
 #     print(index)
 #     index=index+1
+
+# Logical Condition...................
+# age = 20
+# has_permission = True
+#
+# if age >=20 and has_permission == True:
+#     print("you are adult")
+# else:
+#     print("you are child")
+
+
+# function......................................
+def Addition(a,b):
+    sum = a + b
+    print(sum)
+    
+Addition(50,30)
