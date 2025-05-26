@@ -38,7 +38,21 @@ from operator import index
     # for item in range(100):
     #     print(item)
 
-# dictonary....................................
+
+
+    # for item in range(100):
+#     if item == 12:
+#         break
+#     print(item)
+
+
+
+# for item in range(100):
+#     if item == 10:
+#         continue
+#     print(item)
+
+# for loop in .......dictonary....................................
 # examResult = {'bangla': 95, 'math': 85, 'english':75}
 # for subject,marks in examResult.items():
 #     print(subject,marks)
@@ -50,20 +64,12 @@ from operator import index
 #     print(fruits[index])
 #     index = index + 1
 #
-# for item in range(100):
-#     if item == 12:
+#
+
+# index=1
+# end=12
+# while index<end:
+#     if index == 5:
 #         break
-#     print(item)
-
-# for item in range(100):
-#     if item == 10:
-#         continue
-#     print(item)
-
-index=1
-end=12
-while index<end:
-    if index == 5:
-        break
-    print(index)
-    index=index+1
+#     print(index)
+#     index=index+1
