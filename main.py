@@ -92,9 +92,40 @@ from operator import index
 # Addition(50,30)
 
 # List Method........................................
-country = ["Bangladesh", "India", "Pakistan"]
-# country.append("America")
-# country.append("America")
-# country.remove("America")
-country.insert(0,"America")
-print(country)
+# country = ["Bangladesh", "India", "Pakistan"]
+# # country.append("America")
+# # country.append("America")
+# # country.remove("America")
+# country.insert(0,"America")
+# print(country)
+
+# file create and read and write....................
+# with open("maruf.text", "w") as file:
+#     file.write("amar sonar bangla ami tomay valobashi")
+#     print("created")
+
+# import json
+# # Python Object to create Json string file................................
+# persion = {
+#     "name": "Maruf",
+#     "age": 29,
+#     "addres": "Satkhira",
+#     "has_children": False,
+#     "desination": ["Programmer,Engineer,Writer"]
+# }
+# persionJson = json.dumps(persion, indent=4)
+# print(persionJson)
+
+# Json string to Python Object..........................
+import json
+personJs ={
+    "name": "Maruf",
+    "age": 29,
+    "addres": "Satkhira",
+    "desination": [
+        "Programmer,Engineer,Writer"
+    ]
+    }
+persionObject = json.loads(personJs)
+print(persionObject)
+
