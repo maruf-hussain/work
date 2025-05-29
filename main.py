@@ -145,9 +145,10 @@ class Father:
         print(self.x + self.y)
 
 class Son(Father):
-      pass
+   def __init__(self):
+       super().__init__()
+       print("Son Constructer")
 
 
 
 obj1 = Son()
-obj2 = Father()
