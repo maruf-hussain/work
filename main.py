@@ -117,15 +117,37 @@ from operator import index
 # print(persionJson)
 
 # Json string to Python Object..........................
-import json
-personJs ={
-    "name": "Maruf",
-    "age": 29,
-    "addres": "Satkhira",
-    "desination": [
-        "Programmer,Engineer,Writer"
-    ]
-    }
-persionObject = json.loads(personJs)
-print(persionObject)
+# import json
+# personJs ={
+#     "name": "Maruf",
+#     "age": 29,
+#     "addres": "Satkhira",
+#     "desination": [
+#         "Programmer,Engineer,Writer"
+#     ]
+#     }
+# persionObject = json.loads(personJs)
+# print(persionObject)
 
+
+
+class Father:
+    x = 50
+    y = 20
+
+
+    def __init__(self):
+         print("father constructer")
+
+
+
+    def add(self):
+        print(self.x + self.y)
+
+class Son(Father):
+      pass
+
+
+
+obj1 = Son()
+obj2 = Father()
