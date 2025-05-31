@@ -131,24 +131,72 @@ from operator import index
 
 
 
-class Father:
-    x = 50
-    y = 20
+# class Father:
+#     x = 50
+#     y = 20
 
 
-    def __init__(self):
-         print("father constructer")
-
-
-
-    def add(self):
-        print(self.x + self.y)
-
-class Son(Father):
-   def __init__(self):
-       super().__init__()
-       print("Son Constructer")
+#     def __init__(self):
+#          print("father constructer")
 
 
 
-obj1 = Son()
+#     def add(self):
+#         print(self.x + self.y)
+
+# class Son(Father):
+#    def __init__(self):
+#        super().__init__()
+#        print("Son Constructer")
+
+
+
+# obj1 = Son()
+
+
+# Encapsulation ........................with atm booth bank.......
+
+class BankAccount :
+    
+    __balance = 50
+
+    # Deposit............
+    def deposit(self,amount):
+        if amount > 100:
+           self.__balance += amount
+           print(amount, "Taka deposit succesfully")
+
+        else:
+            print("invalied Ammount")
+
+    # Withdraw.............................................
+    def withdraw(self,amount):
+        if amount >= 100 and amount <= self.__balance:
+         self.__balance -= amount
+         print(amount,"withdraw succesfully")
+
+        else:
+         print("invalied withdraw ammount")
+
+
+    # Check Balance..................
+    def check_balance(self):
+        return  self.__balance
+    
+    
+
+
+
+
+obj = BankAccount()
+
+obj.deposit(700)
+
+print('Total Balance',obj.check_balance())
+
+obj.withdraw(500)
+print('Total Balance',obj.check_balance())
+
+
+        
+        
