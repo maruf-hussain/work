@@ -1,4 +1,4 @@
-from operator import index
+# from operator import index
 
 # Pythont genarel math............
 # num1=50
@@ -156,47 +156,51 @@ from operator import index
 
 # Encapsulation ........................with atm booth bank.......
 
-class BankAccount :
+# class BankAccount :
     
-    __balance = 50
+#     __balance = 50
 
-    # Deposit............
-    def deposit(self,amount):
-        if amount > 100:
-           self.__balance += amount
-           print(amount, "Taka deposit succesfully")
+#     # Deposit............
+#     def deposit(self,amount):
+#         if amount > 100:
+#            self.__balance += amount
+#            print(amount, "Taka deposit succesfully")
 
-        else:
-            print("invalied Ammount")
+#         else:
+#             print("invalied Ammount")
 
-    # Withdraw.............................................
-    def withdraw(self,amount):
-        if amount >= 100 and amount <= self.__balance:
-         self.__balance -= amount
-         print(amount,"withdraw succesfully")
+#     # Withdraw.............................................
+#     def withdraw(self,amount):
+#         if amount >= 100 and amount <= self.__balance:
+#          self.__balance -= amount
+#          print(amount,"withdraw succesfully")
 
-        else:
-         print("invalied withdraw ammount")
+#         else:
+#          print("invalied withdraw ammount")
 
 
-    # Check Balance..................
-    def check_balance(self):
-        return  self.__balance
+#     # Check Balance..................
+#     def check_balance(self):
+#         return  self.__balance
     
     
 
 
 
 
-obj = BankAccount()
+# obj = BankAccount()
 
-obj.deposit(700)
+# obj.deposit(700)
 
-print('Total Balance',obj.check_balance())
+# print('Total Balance',obj.check_balance())
 
-obj.withdraw(500)
-print('Total Balance',obj.check_balance())
+# obj.withdraw(500)
+# print('Total Balance',obj.check_balance())
 
 
-        
+import calculator 
+print(calculator.add(50,60))
+print(calculator.sub(90,60))
+print(calculator.mul(50,2))
+print(calculator.dev(50,5))
         
