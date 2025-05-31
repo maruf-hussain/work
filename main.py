@@ -198,11 +198,33 @@
 # print('Total Balance',obj.check_balance())
 
 
+
+
+# Python Module..........................................................
 # import calculator 
 # print(calculator.add(50,60))
 # print(calculator.sub(90,60))
 # print(calculator.mul(50,2))
 # print(calculator.dev(50,5))
         
-from calculator import add
-print(add(45,10))
+# from calculator import add
+# print(add(45,10))
+
+
+
+# import os
+# res = os.getcwd()
+# print(res)
+
+
+# import sys
+# res = sys.version
+# print(res)
+
+
+# import datetime
+# current_datetime = datetime.datetime.now()
+# print(current_datetime.year)
+
+
+
